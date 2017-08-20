@@ -1,0 +1,448 @@
+/*Header*/
+
+.header-background {
+    position: relative;
+    background-image: url('../images/header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 5rem;
+    overflow: hidden;
+    display: block;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, .77);
+    background: linear-gradient(180deg, rgba(14, 14, 14, 0.95), rgba(0, 0, 0, 0.85) 18%, rgba(0, 0, 0, 0.7) 61%, rgba(0, 0, 0, 0.66))
+}
+
+.Page-heading {
+    font-family: Raleway, sans-serif;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 5px;
+    line-height: 1.2;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    text-shadow: 1px 0px 1px #1d7937
+}
+
+.Page-subheading {
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    color: #25a94a;
+}
+
+.bot {
+    font-weight: 900;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: #25a94a;
+    margin-top: 28px;
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.logo {
+    width: 13%;
+    border: 2px solid #fff;
+    padding: 11px;
+}
+
+.features {
+    background-color: rgb(37, 169, 74);
+    width: 80%;
+    margin: 9rem auto 0 auto;
+    padding: 13px 0 6px 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    /*border-radius: 3px;;*/
+
+}
+
+.circle {
+    margin: 0 auto;
+    background-color: #ffffff;
+    height: 50px;
+    text-align: center;
+    transition: all 0.2s ease-in-out 0s;
+    width: 50px;
+    border-radius: 50%;;
+}
+
+.image-container {
+    width: 30px;
+    margin-top: 10px;
+}
+
+.features-text {
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px
+}
+
+.services {
+    background-color: #eef1f4;
+    /*border-bottom: 1px solid #ccc;*/
+    padding: 12rem 0 7rem;
+    position: relative;
+}
+
+.services-circle {
+    float: left;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    background-color: #333;
+    height: 50px;
+    transition: all 0.2s ease-in-out 0s;
+    width: 50px;
+    border-radius: 50%;
+    font-weight: 600;
+    line-height: 49px;
+    margin-right: 14px;
+}
+
+.services-bot-container {
+    text-align: right;
+    width: 30%;
+    position: absolute;
+    right: -66px;
+    top: 33px;
+    z-index: 1;
+}
+
+.bot-image {
+    width: 50%;
+    margin-top: -20px;
+}
+
+.bot-image-1 {
+    width: 50%;
+}
+
+.services-heading {
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.info-box {
+    width: 74%;
+    position: relative;
+    min-height: 180px;
+    border: 2px solid #25a94a;
+    border-radius: 4px;
+    padding: 15px 30px;
+    margin: 0 auto 10rem;
+    text-align: center;
+
+}
+
+.info-line {
+    width: 55%;
+    border-top: 2px solid #24aa65;
+    margin: 22px auto;
+}
+
+.circle-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 60%;
+    margin: -60px auto 0;
+    margin-bottom: 0;
+    text-align: center;
+    background-color: #25a94a;
+    display: block;
+    font-size: 45px;
+    color: #ffffff;
+    line-height: 1.8;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+}
+
+.heading-content {
+    color: #333;
+    font-size: 21px;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+}
+
+/*Solution*/
+.solution {
+    background-color: #eef1f4;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+
+.circle-solution {
+    position: absolute;
+    right: 30%;
+    top: 21%;
+}
+
+.solution-heading {
+    width: 51%;
+    text-align: left;
+}
+
+.solution-feature-container {
+    /*width: 80%;*/
+    border: 2px solid #25a94a;
+    border-top-left-radius: 6px;
+    /*margin: 0 auto;*/
+    border-top-right-radius: 6px;
+}
+
+.content {
+    padding-left: 13px;
+
+}
+
+.content li {
+    padding-bottom: 10px;
+}
+
+.solution-feature-heading {
+    background: #25a94a;
+    font-size: 18px;
+    padding: 12px;
+    color: white;
+    font-weight: 700;
+    font-family: Raleway, sans-serif;
+}
+
+.sub-content {
+    padding: 14px 0px 0px 15px;
+    font-size: 14px;
+    font-family: Raleway, sans-serif;
+    color: #504d4d;
+    font-weight: 500;
+}
+
+/*customers*/
+.customers {
+    background-color: rgb(37, 169, 74);
+    padding: 3rem 0 1rem;
+}
+
+.clients-container {
+    display: -webkit-box;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.client-logo {
+    -webkit-box-flex: 1;
+    flex: 1;
+    margin-left: 10px;
+}
+
+/* carousel */
+.media-carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+    margin-top: 30px;
+}
+
+/* Previous button  */
+.media-carousel .carousel-control.left {
+    left: -12px;
+    background-image: none;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    height: 40px;
+    width: 40px;
+    margin-top: 0px
+}
+
+/* Next button  */
+.media-carousel .carousel-control.right {
+    right: -12px !important;
+    background-image: none;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    height: 40px;
+    width: 40px;
+    margin-top: 0px
+}
+
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li {
+    background: #c0c0c0;
+}
+
+.media-carousel .carousel-indicators .active {
+    background: #333333;
+}
+
+.media-carousel img {
+    width: 150px;
+    /*height: 100px*/
+}
+
+/* End carousel */
+
+/*Additional Features*/
+
+.additional-features {
+    background-image: url('../images/background.png');
+    position: relative;
+    padding: 25px 0;
+    background-size: cover;
+}
+
+.heading {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    letter-spacing: 2px;
+}
+
+.heading h2 {
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+/*All in one Bot*/
+.bot-section {
+    position: relative;
+    background-color: #232323;
+    padding: 7rem 0 11rem;
+}
+
+.bot-heading {
+    font-size: 32px;
+    color: #25a94a;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.img-size {
+    width: 70%;
+}
+
+/*contact Page*/
+
+.contact-us {
+    background-color: #eef1f4;
+    border-bottom: 1px solid #ccc;
+    padding: 4rem 0 2rem;
+}
+
+.heading-color {
+    color: #333;
+}
+
+.logo-contact {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.contact-info {
+    background: rgba(0, 0, 0, 0.05);
+    display: -webkit-box;
+    display: flex;
+    width: 80%;
+    padding: 38px 0 35px 0;
+    margin: 42px auto;
+    margin-bottom: 35px;
+}
+
+.heading-info {
+    font-family: "Raleway", sans-serif;
+    color: #333;
+    font-size: 19px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.address-content {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    margin-top: 5px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #1ca929;
+}
+
+.mobile-device {
+    margin: 0 auto;
+    text-align: left;
+}
+
+.font-reset {
+    font-size: 20px;
+}
+
+/*Footer*/
+.footer {
+    background-color: #000000;
+    border-bottom: 1px solid #ccc;
+    padding: 3rem 0 1rem;
+}
+
+.footer-text {
+    color: #fff;
+    font-weight: 500;
+    font-size: 13px;
+    font-family: Raleway, 'sans-serif';
+    text-align: center;
+}
+
+.logo-mint {
+    margin-bottom: 2px;
+    font-size: 20px;
+    color: #25a94a;
+    font-weight: 600;
+}
+
+/*BoT*/
+.bot-illustration {
+    position: absolute;
+    top: -51px;
+    width: 100%;
+}
+
+.illustration {
+    width: 11%;
+    opacity: .5;
+}
+
+.bot-illustration-2 {
+    position: absolute;
+    top: -44px;
+    width: 100%;
+    right: 48px;
+    text-align: right;
+}
